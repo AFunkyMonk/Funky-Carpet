@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "funkycarpet",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Funky-carpet",
+  "description": "A Funky version of Carpet mod",
   "authors": [
-    "Me!"
+    "AFunkyMonk"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/AFunkyMonk/Funky-Carpet",
+    "sources": "https://github.com/AFunkyMonk/Funky-Carpet"
   },
 
   "license": "CC0-1.0",
@@ -19,18 +19,18 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "funkycarpet.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.14.6",
     "fabric": "*",
     "minecraft": "~1.19",
-    "java": ">=17"
+    "java": ">=17",
+    "carpet": "*"
   },
   "suggests": {
     "another-mod": "*"
